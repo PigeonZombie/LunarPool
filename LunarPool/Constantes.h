@@ -1,0 +1,13 @@
+const int LARGEUR = 1080;
+const int HAUTEUR = 700;
+const int MAX_SPEED = 20;
+const float SPEED = 10;
+const float FRICTION = 0.997f;
+const int STARTING_LIVES =3; 
+const int NB_BALLES = 10;
+const int NB_POCHES = 6;
+const int DIAMETRE = 40;
+const int NB_MURS_NIV1 = 4;
+const int NB_MURS_NIV2 = 8;
+const int DISTANCE_DEFAUT = 10;
+const int RAYON = 20;

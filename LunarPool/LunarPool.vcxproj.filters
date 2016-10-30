@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources\Sprites">
+      <UniqueIdentifier>{15bc6781-7b32-474d-9da2-a6bfab59fd4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\Niveaux">
+      <UniqueIdentifier>{2bcadf21-037b-422e-8782-7a5429d3adc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\Fonts">
+      <UniqueIdentifier>{c46eb7bf-fcfb-4d8c-a513-7eaccb8271d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\Sons">
+      <UniqueIdentifier>{b53e3859-71a9-4fdf-bc75-982fdcf0f87f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers de ressources\Sprites\Fichiers de ressources">
+      <UniqueIdentifier>{8eeff45a-49aa-4433-b6db-7ce79c982609}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="TableauAffichage.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="BalleBlanche.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Mur.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Balle.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Poche.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Table.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="EcranDebut.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="EcranFin.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Constantes.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="TableauAffichage.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="BalleBlanche.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Mur.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Balle.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Poche.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="Table.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="EcranDebut.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="EcranFin.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Sprites\0.png">
+      <Filter>Fichiers de ressources\Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\1.png">
+      <Filter>Fichiers de ressources\Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\2.png">
+      <Filter>Fichiers de ressources\Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\3.png">
+      <Filter>Fichiers de ressources\Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\4.png">
+      <Filter>Fichiers de ressources\Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\5.png">
+      <Filter>Fichiers de ressources\Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\6.png">
+      <Filter>Fichiers de ressources\Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\7.png">
+      <Filter>Fichiers de ressources\Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\8.png">
+      <Filter>Fichiers de ressources\Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\BackgroundLunaire.png">
+      <Filter>Fichiers de ressources\Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\Poche.png">
+      <Filter>Fichiers de ressources\Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\Table1.png">
+      <Filter>Fichiers de ressources\Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\Table2.png">
+      <Filter>Fichiers de ressources\Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\9.png">
+      <Filter>Fichiers de ressources\Sprites</Filter>
+    </Image>
+    <Image Include="Sprites\10.png">
+      <Filter>Fichiers de ressources\Sprites</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Niveaux\niveau1.txt">
+      <Filter>Fichiers de ressources\Niveaux</Filter>
+    </Text>
+    <Text Include="Niveaux\niveau2.txt">
+      <Filter>Fichiers de ressources\Niveaux</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="Fonts\MotorwerkOblique.ttf">
+      <Filter>Fichiers de ressources\Fonts</Filter>
+    </Font>
+    <Font Include="Fonts\Starjedi.ttf">
+      <Filter>Fichiers de ressources\Fonts</Filter>
+    </Font>
+    <Font Include="Fonts\PressStart2P-Regular.ttf">
+      <Filter>Fichiers de ressources\Fonts</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Sons\Lightsaber.wav">
+      <Filter>Fichiers de ressources\Sons</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sons\Chewie.ogg">
+      <Filter>Fichiers de ressources\Sons</Filter>
+    </None>
+    <None Include="Sons\R2D2.ogg">
+      <Filter>Fichiers de ressources\Sons</Filter>
+    </None>
+    <None Include="Sons\Theme.ogg">
+      <Filter>Fichiers de ressources\Sons</Filter>
+    </None>
+    <None Include="Sons\The Choice.ogg">
+      <Filter>Fichiers de ressources\Sons</Filter>
+    </None>
+  </ItemGroup>
+</Project>

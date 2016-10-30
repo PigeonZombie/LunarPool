@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LunarPool", "LunarPool\LunarPool.vcxproj", "{99F90DD6-743D-404A-B2C4-C5E1300C48DE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LunarPoolTest", "LunarPoolTest\LunarPoolTest.vcxproj", "{F7F2D84A-8FDF-4F6A-91AA-9021EA178CF0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{99F90DD6-743D-404A-B2C4-C5E1300C48DE} = {99F90DD6-743D-404A-B2C4-C5E1300C48DE}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99F90DD6-743D-404A-B2C4-C5E1300C48DE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{99F90DD6-743D-404A-B2C4-C5E1300C48DE}.Debug|Win32.Build.0 = Debug|Win32
+		{99F90DD6-743D-404A-B2C4-C5E1300C48DE}.Release|Win32.ActiveCfg = Release|Win32
+		{99F90DD6-743D-404A-B2C4-C5E1300C48DE}.Release|Win32.Build.0 = Release|Win32
+		{F7F2D84A-8FDF-4F6A-91AA-9021EA178CF0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F7F2D84A-8FDF-4F6A-91AA-9021EA178CF0}.Debug|Win32.Build.0 = Debug|Win32
+		{F7F2D84A-8FDF-4F6A-91AA-9021EA178CF0}.Release|Win32.ActiveCfg = Release|Win32
+		{F7F2D84A-8FDF-4F6A-91AA-9021EA178CF0}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
